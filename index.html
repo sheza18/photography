@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>sidebar</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&family=PT+Serif:ital,wght@1,700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+    integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+</head>
+
+<body>
+<!--  
+  <div class="sidebar">
+    <header>My Apps:</header>
+
+    <ul>
+      <li><a href="#dashboard"><i class="fas fa-qrcode"></i>Dashboard</a></li>
+      <li><a href="#"><i class="fas fa-link"></i>Shortcuts</a></li>
+      <li><a href="#"><i class="fas fa-stream"></i>Overview</a></li>
+      <li><a href="#"><i class="fas fa-calendar-week"></i>Events</a></li>
+      <li><a href="#"><i class="far fa-question-circle"></i>About us</a></li>
+      <li><a href="#"><i class="fas fa-sliders-h"></i>Services</a></li>
+      <li><a href="#"><i class="far fa-envelope"></i>Contact</a></li>
+    </ul>
+  -->
+  </div>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+      aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Features</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Pricing</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Deals
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="#">Silver</a>
+            <a class="dropdown-item" href="#">Platnium</a>
+            <a class="dropdown-item" href="#">Gold</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <button class="button" data-toggle="modal" data-target="#myModal">Sign up</button>
+
+  </div>
+  <div class="modal fade" id="myModal">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">Sign Up</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+
+        <!-- Modal body -->
+        <div class="modal-body">
+          <form action="/action_page.php">
+            <div class="form-group">
+              <label for="email">Email address:</label>
+              <input type="email" class="form-control" placeholder="Enter email" id="email">
+            </div>
+            <div class="form-group">
+              <label for="pwd">Password:</label>
+              <input type="password" class="form-control" placeholder="Enter password" id="pwd">
+            </div>
+            <div class="form-group form-check">
+              <label class="form-check-label">
+                <input class="form-check-input" type="checkbox"> Remember me
+              </label>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+        </div>
+
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <!--
+<div class="navbar">
+    <div class="icons">
+    <ul>
+        <li><a href="#"><i class="fas fa-home"></i>Home</a></li>
+
+    </ul>
+</div>
+</div> -->
+  <!--
+    <div class="left">
+        <img src="./images/logo.jpg">
+    </div>
+    
+    <div class="right">
+        <img src="images/admin.jpg">
+    </div>  -->
+  
+  <div class="row">
+    <div class="column">
+      <img src="./images/bg1.jpg" alt="Snow" style="width:100%;height:850px" ;>
+     </div>  
+    <div class="column">
+      <img src="./images/admin.jpg" alt="Forest" style="width:100%;height:800px" ;>
+      <h6>SHEZA KHAN // <br> PHOTOGRAPHER and a YOUTUBER.
+      </h6>
+    </div>
+  </div>
+  <!---->
+  <!--
+  <div class="card" style="width: 18rem;">
+    <img src="./images/cam1.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Samsung </h5>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      <a href="#" class="btn btn-primary">Read more</a>
+    </div>
+  </div>
+
+  <div class="card" style="width: 18rem;">
+    <img src="./images/cam1.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Samsung </h5>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      <a href="#" class="btn btn-primary">Read more</a>
+    </div>
+  </div>
+
+  <div class="card" style="width: 18rem;">
+    <img src="./images/cam1.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Samsung </h5>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      <a href="#" class="btn btn-primary">Read more</a>
+    </div>
+  </div>
+
+  <div class="card" style="width: 18rem;">
+    <img src="./images/cam1.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Samsung </h5>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      <a href="#" class="btn btn-primary">Read more</a>
+    </div>
+  </div>
+  <div class="card" style="width: 18rem;">
+    <img src="./images/cam1.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Samsung </h5>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      <a href="#" class="btn btn-primary">Read more</a>
+    </div>
+  </div>
+
+-->
+  <!--
+<section id="products">
+  <div class="cards">
+    <div class="row">
+      <div clas="col-lg-3 col-md-3 col-12">
+        <div class="card">
+          <img class="card-img-top" src="./images/cam2.jpg" alt="Card image">
+          <div class="card-body">
+            <h4 class="card-title">D5600 DX-Format Digital </h4>
+            <p class="card-text">Powerhouse performance in the ultimate laptop.</p>
+            <a href="https://www.amazon.com/Nikon-D7200-DX-format-DSLR-Black/dp/B00U2W45WA" target="_blank"
+              class="btn btn-primary">Shop now ></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="cards">
+      <div class="row">
+        <div clas="col-lg-3 col-md-3 col-12">
+          <div class="card">
+            <img class="card-img-top" src="./images/cam3.jpg" alt="Card image">
+            <div class="card-body">
+              <h4 class="card-title"> Camcorder </h4>
+              <p class="card-text">Powerhouse performance in the ultimate laptop.</p>
+              <a href="https://www.amazon.com/Nikon-DX-Format-Digital-18-55mm-3-5-5-6G/dp/B01N4KCC2M/ref=pd_sbs_421_4/130-6385463-4868526?_encoding=UTF8&pd_rd_i=B01N4KCC2M&pd_rd_r=f327bf3f-a21c-4585-9a62-158d4603e296&pd_rd_w=32eAb&pd_rd_wg=5ZfGq&pf_rd_p=cc0adad9-73a2-470d-acda-37a71f8758ba&pf_rd_r=5MW7S3K7PJPDNBGXWAYS&psc=1&refRID=5MW7S3K7PJPDNBGXWAYS"
+                target="_blank" class="btn btn-primary">Shop now ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="cards">
+        <div class="row">
+          <div clas="col-lg-3 col-md-3 col-12">
+            <div class="card">
+              <img class="card-img-top" src="./images/cam4.jpg" alt="Card image">
+              <div class="card-body">
+                <h4 class="card-title">Canon XA11  Camcorder </h4>
+                <p class="card-text">Powerhouse performance in the ultimate laptop.</p>
+                <a href="https://www.amazon.com/Canon-XA11-Professional-Camcorder/dp/B0773Y4HTC/ref=sr_1_4?crid=1O06QF30VYHZV&dchild=1&keywords=movie+camera&sprefix=movie+camer%2Caps%2C433&sr=8-4"
+                  target="_blank" class="btn btn-primary">Shop now ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+        <div class="cards">
+          <div class="row">
+            <div clas="col-lg-3 col-md-3 col-12">
+              <div class="card">
+                <img class="card-img-top" src="./images/cam5.jpg" alt="Card image">
+                <div class="card-body">
+                  <h4 class="card-title"> Nikon</h4>
+                  <p class="card-text">Powerhouse performance in the ultimate laptop.</p>
+                  <a href="https://www.amazon.com/Nikon-DX-Format-Digital-18-55mm-3-5-5-6G/dp/B01N4KCC2M/ref=pd_sbs_421_4/130-6385463-4868526?_encoding=UTF8&pd_rd_i=B01N4KCC2M&pd_rd_r=f327bf3f-a21c-4585-9a62-158d4603e296&pd_rd_w=32eAb&pd_rd_wg=5ZfGq&pf_rd_p=cc0adad9-73a2-470d-acda-37a71f8758ba&pf_rd_r=5MW7S3K7PJPDNBGXWAYS&psc=1&refRID=5MW7S3K7PJPDNBGXWAYS"
+                    target="_blank" class="btn btn-primary">Shop now ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+          <!---->
+  <!--
+         <section id="pics">
+           <div class="container">
+          <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./images/wp1.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./images/wp2p.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./images/wp3.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+          </div>
+        </section>
+      -->
+
+  <main>
+    <div class="">
+      <div class="row">
+        <div class="col-lg-3 col-md-3 col-12">
+          <div class="card" style="widows: 400px">
+            <div class="card" style="width:250px">
+              <img class="card-img-top" src="./images/cam1.jpg" alt="Card image" style="width:100%">
+              <div class="card-body">
+                <h4 class="card-title">John Doe</h4>
+                <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+                <a href="#" class="btn btn-primary">Shop now ></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="">
+            <div class="row">
+              <div class="col-lg-3 col-md-3 col-12">
+                <div class="card" style="widows: 400px">
+                  <div class="card" style="width:250px">
+                    <img class="card-img-top" src="./images/cam1.jpg" alt="Card image" style="width:100%">
+                    <div class="card-body">
+                      <h4 class="card-title">John Doe</h4>
+                      <p class="card-text">Some example text some example text. John Doe is an architect and engineer
+                      </p>
+                      <a href="#" class="btn btn-primary">Shop now ></a>
+                    </div>
+                  </div>
+                </div>
+
+
+                <div class="">
+                  <div class="row">
+                    <div class="col-lg-3 col-md-3 col-12">
+                      <div class="card" style="widows: 400px">
+                        <div class="card" style="width:250px">
+                          <img class="card-img-top" src="./images/cam1.jpg" alt="Card image" style="width:100%">
+                          <div class="card-body">
+                            <h4 class="card-title">John Doe</h4>
+                            <p class="card-text">Some example text some example text. John Doe is an architect and
+                              engineer</p>
+                            <a href="#" class="btn btn-primary">Shop now ></a>
+                          </div>
+                        </div>
+                        </div>
+
+
+                          </div>
+                        </div>
+                    </main>
+
+
+
+
+
+
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
